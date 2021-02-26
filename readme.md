@@ -6,6 +6,10 @@ Users can create an account and add checks to their account. Checks are run and 
 
 Currently, there is no front end built for this application. All code here is server side.
 
+## Running the app
+
+Currently, a compiled version of the app is not available. The entry point for the app is the app.js file.
+
 ## Configuration
 
 ### Database
@@ -142,6 +146,6 @@ A valid token must be submitted in the authorization header.
 
 The workers file will read the database for all checks on file, run each check, and log the results to the console. Each time a check is run, its status will be updated to "up" or "down" along with the time it was last checked.
 
-## Coming soon:
+## Coming soon
 
 Logs automatically generated and saved each time checks are run
