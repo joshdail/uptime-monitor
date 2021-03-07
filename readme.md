@@ -1,4 +1,4 @@
-# Uptime Monitor v.1.0.0
+# Uptime Monitor v.1.1.0
 
 This is an API that allows you to create checks to monitor whether websites are up.
 
