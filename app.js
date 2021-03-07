@@ -8,6 +8,8 @@ const tokens = require('./lib/routes/tokens.js');
 const checks = require('./lib/routes/checks.js');
 const config = require('./lib/config.js');
 const workers = require('./lib/workers.js');
+const cli = require('./lib/cli.js');
+const helpers = require('./lib/helpers.js');
 
 const mongoose = require('mongoose');
 const Token = require('./lib/schemas/token');
@@ -35,6 +37,9 @@ mongoose.connect(process.env.CONNECTION_STRING, {
 
 // Start the background workers
 workers.init();
+
+// Start the CLI, but set a timeout to make sure it starts last
+setTimeout(cli.init, 50);
 
 // Shut down the app
 process.on('SIGTERM', () => {
