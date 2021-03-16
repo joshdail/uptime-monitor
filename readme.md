@@ -160,8 +160,8 @@ Shows all checks in the database.
 
 ## Other Info
 
-The workers file will read the database for all checks on file and run each check. Each time a check is run, its status will be updated to "up" or "down" along with the time it was last checked. The feature of logging results of each check to the console has been disabled.
+The workers file will read the database for all checks on file and run each check. Each time a check is run, its status will be updated to "up" or "down" along with the time it was last checked. The results of each check are automatically logged.
 
 ## Coming soon
 
-Logs automatically generated and saved each time checks are run
+Compressing log files
