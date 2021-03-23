@@ -144,7 +144,14 @@ A valid token must be submitted in the authorization header.
 
 ## CLI
 
-A CLI has been added to the program. A few basic commands are operational, with more to come.
+A CLI has been added to the program, with the following commands available:
+
+- help, man           Show a help page
+- users               List all user accounts in the database
+- checks              Show all checks in the database
+- exit, cls           End the program
+- logs                Show all log file names
+- display {filename}  Display the log file. Note that the file extension is needed
 
 #### exit
 
