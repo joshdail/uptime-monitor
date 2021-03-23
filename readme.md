@@ -155,18 +155,6 @@ A CLI has been added to the program, with the following commands available:
 - logs                Show all log file names
 - display {filename}  Display the log file. Note that the file extension is needed
 
-#### exit
-
-Terminates the program with a clean shutdown. Tokens are cleared out of the system and the server and database are closed.
-
-#### users
-
-Shows all users in the database.
-
-#### checks
-
-Shows all checks in the database.
-
 ## Other Info
 
 The workers file will read the database for all checks on file and run each check. Each time a check is run, its status will be updated to "up" or "down" along with the time it was last checked. The results of each check are automatically logged.
