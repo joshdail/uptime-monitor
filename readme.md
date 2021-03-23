@@ -6,6 +6,8 @@ Users can create an account and add checks to their account. Checks are run and 
 
 Currently, there is no front end built for this application. All code here is server side.
 
+This program is based on a project from a class on Node.js. However, unlike the class project, which used no frameworks or packages beyond the native Node modules and stored all data in the local file system, this API uses Express, Body Parser, and a few other modules and uses MongoDB to store user and check data. Also, I tried to take more care to keep the code cleaner and more readable.
+
 ## Running the app
 
 Currently, a compiled version of the app is not available. The entry point for the app is the app.js file.
