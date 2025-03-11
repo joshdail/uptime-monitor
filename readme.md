@@ -10,7 +10,7 @@ This program is based on a project from a class on Node.js. However, unlike the 
 
 ## Running the app
 
-Currently, a compiled version of the app is not available. The entry point for the app is the app.js file.
+The entry point for the app is the app.js file.
 
 ## Configuration
 
